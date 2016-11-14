@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E901EB2C1DC9189E004A10EB /* FBMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E901EB2B1DC9189E004A10EB /* FBMenuItemView.m */; };
+		E915DBF01DCA757D00F00DFF /* FBBuckMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E915DBEF1DCA757D00F00DFF /* FBBuckMenuItemView.m */; };
+		E92A83981DD10D170081F698 /* NSMenu+FBMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92A83971DD10D170081F698 /* NSMenu+FBMenuAdditions.m */; };
+		E949075A1D883312004BDCC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94907591D883312004BDCC2 /* AppDelegate.m */; };
+		E949075D1D883312004BDCC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E949075C1D883312004BDCC2 /* main.m */; };
+		E949075F1D883312004BDCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E949075E1D883312004BDCC2 /* Assets.xcassets */; };
+		E94907621D883312004BDCC2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94907601D883312004BDCC2 /* MainMenu.xib */; };
+		E94907701D885142004BDCC2 /* FBMenuItemImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E949076F1D885142004BDCC2 /* FBMenuItemImageGenerator.m */; };
+		E953C0D51DD3B208004DD70E /* FBBuckMenuItemTag.m in Sources */ = {isa = PBXBuildFile; fileRef = E953C0D41DD3B208004DD70E /* FBBuckMenuItemTag.m */; };
+		E953C0D81DD3B299004DD70E /* FBBuckTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = E953C0D71DD3B299004DD70E /* FBBuckTagView.m */; };
+		E953C0DC1DD3B33B004DD70E /* FBBuckLabelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E953C0DB1DD3B33B004DD70E /* FBBuckLabelFactory.m */; };
+		E97B10321DCA0B73006EAAF7 /* FBBUCKShellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E97B102F1DCA0B73006EAAF7 /* FBBUCKShellHelper.m */; };
+		E97B10331DCA0B73006EAAF7 /* FBBUCKShellRunResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E97B10311DCA0B73006EAAF7 /* FBBUCKShellRunResult.m */; };
+		E97B10361DCA0C6A006EAAF7 /* FBBuckProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E97B10351DCA0C6A006EAAF7 /* FBBuckProcessInfo.m */; };
+		E9DD12A51DCCD52600F1F347 /* FBBuckMenuQueryingItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD12A41DCCD52600F1F347 /* FBBuckMenuQueryingItemView.m */; };
+		E9DD12A81DCCDB1300F1F347 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD12A71DCCDB1300F1F347 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E901EB2A1DC9189E004A10EB /* FBMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMenuItemView.h; sourceTree = "<group>"; };
+		E901EB2B1DC9189E004A10EB /* FBMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMenuItemView.m; sourceTree = "<group>"; };
+		E915DBEE1DCA757D00F00DFF /* FBBuckMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckMenuItemView.h; sourceTree = "<group>"; };
+		E915DBEF1DCA757D00F00DFF /* FBBuckMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckMenuItemView.m; sourceTree = "<group>"; };
+		E92A83961DD10D170081F698 /* NSMenu+FBMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMenu+FBMenuAdditions.h"; sourceTree = "<group>"; };
+		E92A83971DD10D170081F698 /* NSMenu+FBMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMenu+FBMenuAdditions.m"; sourceTree = "<group>"; };
+		E94907551D883312004BDCC2 /* BuckTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94907581D883312004BDCC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E94907591D883312004BDCC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E949075C1D883312004BDCC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E949075E1D883312004BDCC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94907611D883312004BDCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E94907631D883312004BDCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E949076E1D885142004BDCC2 /* FBMenuItemImageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMenuItemImageGenerator.h; sourceTree = "<group>"; };
+		E949076F1D885142004BDCC2 /* FBMenuItemImageGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMenuItemImageGenerator.m; sourceTree = "<group>"; };
+		E953C0D31DD3B208004DD70E /* FBBuckMenuItemTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckMenuItemTag.h; sourceTree = "<group>"; };
+		E953C0D41DD3B208004DD70E /* FBBuckMenuItemTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckMenuItemTag.m; sourceTree = "<group>"; };
+		E953C0D61DD3B299004DD70E /* FBBuckTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckTagView.h; sourceTree = "<group>"; };
+		E953C0D71DD3B299004DD70E /* FBBuckTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckTagView.m; sourceTree = "<group>"; };
+		E953C0DA1DD3B33B004DD70E /* FBBuckLabelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckLabelFactory.h; sourceTree = "<group>"; };
+		E953C0DB1DD3B33B004DD70E /* FBBuckLabelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckLabelFactory.m; sourceTree = "<group>"; };
+		E97B102E1DCA0B73006EAAF7 /* FBBUCKShellHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBUCKShellHelper.h; sourceTree = "<group>"; };
+		E97B102F1DCA0B73006EAAF7 /* FBBUCKShellHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBUCKShellHelper.m; sourceTree = "<group>"; };
+		E97B10301DCA0B73006EAAF7 /* FBBUCKShellRunResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBUCKShellRunResult.h; sourceTree = "<group>"; };
+		E97B10311DCA0B73006EAAF7 /* FBBUCKShellRunResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBUCKShellRunResult.m; sourceTree = "<group>"; };
+		E97B10341DCA0C6A006EAAF7 /* FBBuckProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckProcessInfo.h; sourceTree = "<group>"; };
+		E97B10351DCA0C6A006EAAF7 /* FBBuckProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckProcessInfo.m; sourceTree = "<group>"; };
+		E9DD12A31DCCD52600F1F347 /* FBBuckMenuQueryingItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBuckMenuQueryingItemView.h; sourceTree = "<group>"; };
+		E9DD12A41DCCD52600F1F347 /* FBBuckMenuQueryingItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBuckMenuQueryingItemView.m; sourceTree = "<group>"; };
+		E9DD12A71DCCDB1300F1F347 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94907521D883312004BDCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD12A81DCCDB1300F1F347 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E949074C1D883312004BDCC2 = {
+			isa = PBXGroup;
+			children = (
+				E94907571D883312004BDCC2 /* BuckTool */,
+				E94907561D883312004BDCC2 /* Products */,
+				E9DD12A61DCCDB1300F1F347 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E94907561D883312004BDCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94907551D883312004BDCC2 /* BuckTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94907571D883312004BDCC2 /* BuckTool */ = {
+			isa = PBXGroup;
+			children = (
+				E94907581D883312004BDCC2 /* AppDelegate.h */,
+				E94907591D883312004BDCC2 /* AppDelegate.m */,
+				E92A83961DD10D170081F698 /* NSMenu+FBMenuAdditions.h */,
+				E92A83971DD10D170081F698 /* NSMenu+FBMenuAdditions.m */,
+				E97B10341DCA0C6A006EAAF7 /* FBBuckProcessInfo.h */,
+				E97B10351DCA0C6A006EAAF7 /* FBBuckProcessInfo.m */,
+				E97B102E1DCA0B73006EAAF7 /* FBBUCKShellHelper.h */,
+				E97B102F1DCA0B73006EAAF7 /* FBBUCKShellHelper.m */,
+				E97B10301DCA0B73006EAAF7 /* FBBUCKShellRunResult.h */,
+				E97B10311DCA0B73006EAAF7 /* FBBUCKShellRunResult.m */,
+				E949076E1D885142004BDCC2 /* FBMenuItemImageGenerator.h */,
+				E901EB2A1DC9189E004A10EB /* FBMenuItemView.h */,
+				E901EB2B1DC9189E004A10EB /* FBMenuItemView.m */,
+				E953C0DA1DD3B33B004DD70E /* FBBuckLabelFactory.h */,
+				E953C0DB1DD3B33B004DD70E /* FBBuckLabelFactory.m */,
+				E915DBEE1DCA757D00F00DFF /* FBBuckMenuItemView.h */,
+				E915DBEF1DCA757D00F00DFF /* FBBuckMenuItemView.m */,
+				E953C0D91DD3B2A0004DD70E /* Tags */,
+				E9DD12A31DCCD52600F1F347 /* FBBuckMenuQueryingItemView.h */,
+				E9DD12A41DCCD52600F1F347 /* FBBuckMenuQueryingItemView.m */,
+				E949076F1D885142004BDCC2 /* FBMenuItemImageGenerator.m */,
+				E949075E1D883312004BDCC2 /* Assets.xcassets */,
+				E94907601D883312004BDCC2 /* MainMenu.xib */,
+				E94907631D883312004BDCC2 /* Info.plist */,
+				E949075B1D883312004BDCC2 /* Supporting Files */,
+			);
+			path = BuckTool;
+			sourceTree = "<group>";
+		};
+		E949075B1D883312004BDCC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E949075C1D883312004BDCC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E953C0D91DD3B2A0004DD70E /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				E953C0D31DD3B208004DD70E /* FBBuckMenuItemTag.h */,
+				E953C0D41DD3B208004DD70E /* FBBuckMenuItemTag.m */,
+				E953C0D61DD3B299004DD70E /* FBBuckTagView.h */,
+				E953C0D71DD3B299004DD70E /* FBBuckTagView.m */,
+			);
+			name = Tags;
+			sourceTree = "<group>";
+		};
+		E9DD12A61DCCDB1300F1F347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD12A71DCCDB1300F1F347 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94907541D883312004BDCC2 /* BuckTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94907661D883312004BDCC2 /* Build configuration list for PBXNativeTarget "BuckTool" */;
+			buildPhases = (
+				E94907511D883312004BDCC2 /* Sources */,
+				E94907521D883312004BDCC2 /* Frameworks */,
+				E94907531D883312004BDCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuckTool;
+			productName = BuckTool;
+			productReference = E94907551D883312004BDCC2 /* BuckTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E949074D1D883312004BDCC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					E94907541D883312004BDCC2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V9WTTPBFK9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E94907501D883312004BDCC2 /* Build configuration list for PBXProject "BuckTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E949074C1D883312004BDCC2;
+			productRefGroup = E94907561D883312004BDCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94907541D883312004BDCC2 /* BuckTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94907531D883312004BDCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E949075F1D883312004BDCC2 /* Assets.xcassets in Resources */,
+				E94907621D883312004BDCC2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94907511D883312004BDCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97B10331DCA0B73006EAAF7 /* FBBUCKShellRunResult.m in Sources */,
+				E97B10361DCA0C6A006EAAF7 /* FBBuckProcessInfo.m in Sources */,
+				E94907701D885142004BDCC2 /* FBMenuItemImageGenerator.m in Sources */,
+				E9DD12A51DCCD52600F1F347 /* FBBuckMenuQueryingItemView.m in Sources */,
+				E915DBF01DCA757D00F00DFF /* FBBuckMenuItemView.m in Sources */,
+				E97B10321DCA0B73006EAAF7 /* FBBUCKShellHelper.m in Sources */,
+				E953C0D81DD3B299004DD70E /* FBBuckTagView.m in Sources */,
+				E953C0DC1DD3B33B004DD70E /* FBBuckLabelFactory.m in Sources */,
+				E92A83981DD10D170081F698 /* NSMenu+FBMenuAdditions.m in Sources */,
+				E949075D1D883312004BDCC2 /* main.m in Sources */,
+				E901EB2C1DC9189E004A10EB /* FBMenuItemView.m in Sources */,
+				E949075A1D883312004BDCC2 /* AppDelegate.m in Sources */,
+				E953C0D51DD3B208004DD70E /* FBBuckMenuItemTag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E94907601D883312004BDCC2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94907611D883312004BDCC2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94907641D883312004BDCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E94907651D883312004BDCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E94907671D883312004BDCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V9WTTPBFK9;
+				INFOPLIST_FILE = BuckTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.BuckTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E94907681D883312004BDCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V9WTTPBFK9;
+				INFOPLIST_FILE = BuckTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.BuckTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94907501D883312004BDCC2 /* Build configuration list for PBXProject "BuckTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94907641D883312004BDCC2 /* Debug */,
+				E94907651D883312004BDCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94907661D883312004BDCC2 /* Build configuration list for PBXNativeTarget "BuckTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94907671D883312004BDCC2 /* Debug */,
+				E94907681D883312004BDCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E949074D1D883312004BDCC2 /* Project object */;
+}
